@@ -1,1 +1,97 @@
 @charset "UTF-8";
+
+.button-area {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+.btn {
+  width: 140px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 28px;
+}
+
+/* 色 */
+.red {
+  background: #fd0f0fd9;
+  color: #fff;
+}
+
+.blue {
+  background: #170ffdd9;
+  color: #fff;
+}
+
+.green {
+  background: #0ffd0fd9;
+  color: #000;
+}
+
+/* Q10-2 影 */
+.shadow.red {
+  box-shadow: 0 8px 0 rgba(63, 5, 5, 0.851);
+}
+
+.shadow.blue {
+  box-shadow: 0 8px 0 rgba(5, 13, 63, 0.851);
+}
+
+.shadow.green {
+  box-shadow: 0 8px 0 rgba(5, 63, 5, 0.851);
+}
+
+/* Q10-3 押した感 */
+.press {
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.press:active {
+  transform: translateY(8px);
+  box-shadow: none;
+}
+
+/* Q10-4 hover変化 */
+.hover-btn {
+  background: #fff;
+  color: #67c5ff;
+}
+
+/* 1つ目 */
+.style1 {
+  border: 4px solid #67c5ff;
+}
+
+.style1:hover {
+  background: #fffbef;
+}
+
+/* 2つ目 */
+.style2 {
+  border: 4px dotted #75caff;
+  color: #67c5ff;
+  background: #ffffff;
+}
+
+.style2:hover {
+  border: 4px dashed #75caff;
+}
+
+
+/* 3つ目 */
+.style3 {
+  color: #0079a5f8;
+  background: #d0edfff8;
+  border: 4px dashed #67c5ff;
+}
+
+.style3:hover {
+  color: #67c5ff;
+  background: #ffffff;
+}
