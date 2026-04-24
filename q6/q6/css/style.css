@@ -1,41 +1,42 @@
 @charset "UTF-8";
 
+a {
+  text-decoration: none;
+}
+
 .header {
-  background-color: #3868f1;
+  width: 100%;
+  background: #388bff;
+  position: fixed;
 }
 
 .header-inner {
   width: 1100px;
-  height: 40px;
   margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
-  float: left;
+  margin-top: 30px;
   font-size: 24px;
   font-weight: bold;
-  line-height: 40px;
-  color: #f2f17b;
-  text-decoration: none;
 }
 
-.nav {
-  float: right;
+.logo a {
+  color: #f2ff7b;
+}
+
+.nav-list {
+  display: flex;
 }
 
 .nav-list li {
-  float: left;
-  margin-left: 30px;
+  list-style: none;
+  padding: 30px;
 }
 
 .nav-list a {
-  line-height: 40px;
   color: #ffffff;
-  text-decoration: none;
-}
-
-.header-inner::after {
-  content: "";
-  display: block;
-  clear: both;
 }
