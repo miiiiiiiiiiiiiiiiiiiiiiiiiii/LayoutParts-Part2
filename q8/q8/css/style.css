@@ -6,29 +6,24 @@
 .q8-4 {
   height: 500px;
   margin-bottom: 40px;
-  background-image: url("../../image/coffee-background.jpg");
 }
 
 /* Q8-1 */
 .q8-1 {
-  background-repeat: repeat;
+  background: url("../../image/coffee-background.jpg") repeat;
 }
 
 /* Q8-2 */
 .q8-2 {
-  background-repeat: no-repeat;
+  background: url("../../image/coffee-background.jpg") no-repeat;
 }
 
 /* Q8-3 */
 .q8-3 {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background: url("../../image/coffee-background.jpg") no-repeat center / cover;
 }
 
 /* Q8-4 */
 .q8-4 {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+  background: url("../../image/coffee-background.jpg") no-repeat center / contain;
 }
